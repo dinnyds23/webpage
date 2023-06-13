@@ -1,0 +1,152 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgba(29, 28, 28, 0.906);
+    color:white;
+    background-image: url("signup-bgimg.svg");
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.signup
+{
+    height: 850px;
+    width: 700px;
+    /* border: 2px solid red; */
+    border-radius: 35px;
+    margin: auto;
+    margin-top: 3%;
+    /* background-color: rgba(65, 84, 142, 0.906); */
+     background-image: url("signup-bgimg.svg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0.2rem 0.3rem 0.7rem rgb(20, 20, 20));
+    text-align: center;
+}
+.signup:hover
+{
+    filter: drop-shadow(0.2rem 0.3rem 0.7rem rgba(144, 224, 207, 0.845));
+}
+.signup1
+{
+    height: 800px;
+    width: 680px;
+    /* border: 2px solid rgb(17, 0, 255); */
+    margin: auto;
+    margin-top: 3%;
+}
+.unm
+{
+    height: 45px;
+    width:675px ;
+    /* border: 2px solid green; */
+    font-size: 23px;
+}
+#lnm
+{
+    margin-left: 50px;
+}
+.dob
+{
+    height: 45px;
+    width:675px ;
+    margin-top: 5%;
+    /* border: 2px solid rgb(128, 0, 0); */
+    font-size: 23px;
+}
+.gender
+{
+    height: 45px;
+    width:675px ;
+    margin-top: 5%;
+    /* border: 2px solid rgb(128, 0, 0); */
+    font-size: 23px;
+}
+.mobi-no
+{
+    height: 45px;
+    width:675px ;
+    margin-top: 5%;
+    /* border: 2px solid rgb(104, 6, 81); */
+    font-size: 23px;
+}
+.email
+{
+    height: 45px;
+    width:675px ;
+    margin-top: 5%;
+    /* border: 2px solid rgb(207, 18, 18); */
+    font-size: 23px;
+}
+.password
+{
+    height: 150px;
+    width:675px ;
+    margin-top: 5%;
+    /* border: 2px solid rgb(12, 239, 12); */
+    font-size: 23px;
+}
+
+.password ul
+{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+#list
+{
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 35%;
+}
+
+.re-enter-password
+{
+    height: 45px;
+    width:675px ;
+    margin-top: 5%;
+    /* border: 2px solid rgb(0, 1, 2); */
+    font-size: 23px;
+}
+.submit
+{
+    height: 45px;
+    width:675px ;
+    margin-top: 5%;
+    /* border: 2px solid rgb(0, 1, 2); */
+    font-size: 23px;
+}
+.submit a{
+     margin-left: 2%;
+     color: white;
+     text-decoration: none;
+     height:20px;
+     width: 60px;
+     /* border: 2px solid rgb(0, 1, 2); */
+     background-color: rgb(189, 64, 191);
+     border-radius: 10px;
+     padding: 15px 50px;
+}
+.submit:hover{
+    scale:1.1;
+}
+.checkbox
+{
+    height: 45px;
+    width:675px ;
+    margin-top: 5%;
+    /* border: 2px solid rgb(0, 1, 2); */
+    font-size: 15px;
+    text-align: center;
+}
+
+#fnm,#lnm,#dob,#gender,#mobi-no,#email,#password,#re-enter-password
+{
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+}

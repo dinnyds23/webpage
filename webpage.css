@@ -1,0 +1,463 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(156, 239, 237);
+    font-family:poppins,sans-serif;
+}
+.home{
+    background-image: url("https://www.wiredforadventure.com/wp-content/uploads/2019/08/hendrik-cornelissen-qrcOR33ErA-unsplash-scaled.jpg");
+    
+    height: 630px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home:hover
+{
+    animation: bgimage 8s infinite;
+   
+}
+@keyframes bgimage
+{
+    0%
+    {
+        background-image: url("https://www.wiredforadventure.com/wp-content/uploads/2019/08/hendrik-cornelissen-qrcOR33ErA-unsplash-scaled.jpg");
+        height: 630px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    35%
+    {
+        background-image: url("https://wallpapers.com/images/hd/sunset-on-the-beach-pbjjbh4slklceds1.jpg");
+        height: 630px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    72%
+    {
+        background-image: url("https://w0.peakpx.com/wallpaper/239/809/HD-wallpaper-station-hill.jpg");
+        height: 630px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%
+    {
+        background-image: url("https://www.wiredforadventure.com/wp-content/uploads/2019/08/hendrik-cornelissen-qrcOR33ErA-unsplash-scaled.jpg");
+    
+    height: 630px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+}
+nav
+{
+    font-size: 30px;
+
+}
+
+
+header
+{
+    height: 100px;
+    background-color: rgba(10, 10, 10, 0.769);
+    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
+.h1
+{
+    margin-top: 35px;
+}
+#pad
+{
+    color: rgb(246, 246, 246);
+    padding-right: 4%;
+    float: right;
+    text-decoration: none;
+}
+#pad:hover
+{
+    background-color: white;
+   filter: drop-shadow(0 0 0.8rem rgba(20, 238, 0, 0.709));
+   color: black;
+}
+.login
+{
+    margin-top: 15%;
+    margin-left: 5%;
+    color:rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.8rem rgb(126, 121, 28)) ;
+}
+#head
+{
+    text-align:center;
+    font-size: 40px;
+}
+#marq
+{
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+}
+.search
+{
+    margin-top: 15px;
+    margin-left: 45%;
+    background-color: rgb(38, 255, 0);
+    height: 30px;
+    width: 180px;
+    border-radius: 10px;
+    color:rgb(253, 253, 253);
+   font-size: 25px;
+}
+.search:hover{
+    background-color: rgb(231, 205, 165);
+
+}
+#places
+{
+    padding-left: 2%;
+}
+.combine
+{
+    display: flex;
+    background-color: white;
+}
+.text
+{
+    width: 400px;
+    height: 450px;
+   /* border: red 2px solid;*/
+}
+#text1
+{
+    margin-top: 30%;
+    margin-left: 25%;
+    font-size: 60px;
+}
+.combine:hover #text1
+{
+
+    animation: movetext 1s linear forwards;
+    background-color: rgba(9, 9, 9, 0.813);
+    color: rgb(255, 253, 253);
+    border-radius: 25px;
+    filter: drop-shadow(0 0 0.5rem rgb(0, 187, 255));
+}
+@keyframes movetext
+{
+    form
+    {
+        transform: trans lateY(50px);
+    }
+    to
+    {
+        transform: translateY(-50px);
+    }
+}
+.image
+{   width: 800px;
+    height: 450px;
+   /* border: solid red 2px;*/
+   /* margin-top: 5%;*/
+    margin-left: 5%;
+    padding-left: 3%;
+}
+#display
+{
+    border-radius: 10% 10%;
+    justify-content: space-between;
+    /*margin-left: 3%;
+    */
+}
+#display:hover
+{
+    scale:1.1;
+}
+#h3
+{
+    margin-left: 37%;
+    font-size: 30px;
+    margin-top: 0%;
+}
+.trip
+{
+    margin: 0% 45%;
+}
+.gallery{
+    background-color: rgb(241, 153, 241);
+}
+.img-gallery
+{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 5%;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+}
+.img1
+{
+    margin: 0 3px;
+    flex-grow: 1;
+    flex-basis: 0;
+    transition: .5s;
+}
+.img1 img
+{
+   
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+.img1:hover
+{
+    object-fit: cover;
+    flex-basis: 50%;
+}
+.seas
+{
+    margin-top: 1%;
+    height: 400px;
+   /* border: red 2px solid ;*/
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}
+.sea
+{
+    margin-left: 45%;
+    margin-top: 2%;
+}
+.seatitle:hover{
+    animation: seatitle 4s infinite;
+    color: rgb(128, 4, 150);
+}
+@keyframes seatitle {
+   0%
+    {
+        transform: translateX(-100px);
+    }
+    50%
+    {
+        transform: translateX(120px);   
+    }
+    100%
+    {
+        transform: translateX(120px);   
+    }
+    
+}
+
+#seaimg
+{
+    margin-top: 3%;
+    height: 300px;
+    width:300px;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+}
+#seaimg:hover
+{
+    border-radius: 30px;
+    scale: 1.1;
+}
+
+.HillStations
+{
+    margin-top: 1%;
+    height: 400px;
+   /* border: red 2px solid ;*/
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}
+.HillStation
+{
+    margin-left: 45%;
+    margin-top: 2%;
+}
+
+#HillStationimg
+{
+    margin-top: 3%;
+    height: 300px;
+    width:300px;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+}
+#HillStationimg:hover
+{
+    border-radius: 30px;
+    scale: 1.1;
+}
+
+.Caves
+{
+    margin-top: 1%;
+    height: 400px;
+   /* border: red 2px solid ;*/ 
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}
+.Cave
+{
+    margin-left: 45%;
+    margin-top: 2%;
+}
+#Caveimg
+{
+    margin-top: 3%;
+    height: 300px;
+    width:300px;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+}
+#Caveimg:hover
+{
+    border-radius: 30px;
+    scale: 1.1;
+}
+.Rating
+{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-evenly;
+    position: relative;
+}
+.r1
+{
+    height:300px;
+    width: 350px;
+    border: 2px solid rgb(247, 248, 247);
+    background-color: rgb(126, 202, 98);
+    border-radius: 15px;
+    filter: drop-shadow(0 0 0.3rem black);
+    text-align: center;
+}
+#r1logo
+{
+    width: 70px;
+    height: 100px;
+}
+
+.r2
+{
+    height: 300px;
+    width: 350px;
+    text-align: center;
+    background-color: rgb(245, 239, 245);
+    border-radius: 15px;
+    filter: drop-shadow(0 0 0.3rem black);
+    
+}
+#r2logo
+{
+    width: 70px;
+    height: 100px;
+    
+}
+.r3
+{
+    height:300px;
+    width: 350px;
+    background-color: rgb(237, 151, 237);
+    border-radius: 15px;
+    filter: drop-shadow(0 0 0.3rem black);
+    text-align: center;
+   
+}
+#r3logo
+{
+    width: 90px;
+    height: 120px;
+    
+}
+.ourpartner
+{
+    margin-top: 12%;
+    background-color: white;
+}
+.ourpartner h1
+{
+    text-align: center;
+    font-size: xx-large;
+    width: 10%;
+    height: 5%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.775);
+    color: rgb(236, 230, 49);
+        margin-left: 46%;
+}
+.partner
+{
+    height: 15%;
+    width: 100%;
+}
+.pimg1
+{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pimg2
+{
+    height: 5%;
+    width: 100%;  
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer
+{
+    background-color: rgba(0, 0, 0, 0.775);
+    color: white;
+}
+.about li
+{
+    list-style-type: none;
+    font-size: 20px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.tot-about
+{
+    display: flex;
+    margin: 5%;
+    justify-content: space-evenly;
+}
+#adventure
+{
+    text-align: center;
+}
+.tot-about h1,h4,h2
+{
+    text-align: center;
+
+}
+#general
+{
+    margin-left: 50px;
+}
+.about
+{
+    width: 23%;
+    height: 30%;
+   border-radius: 20px;
+    background-color: rgba(24, 23, 23, 0.556) ;
+    filter: drop-shadow(0 0 0.3rem rgb(0, 0, 0));
+}
+.about:hover{
+    filter: drop-shadow(0 0 0.3rem rgb(116, 230, 213));
+    color: rgb(22, 232, 255);
+}

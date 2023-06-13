@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="signup">
+      <div class="signup1">
+         <h1>Enter You Are Details</h1>
+             <div class="unm">
+                 User Name <br>
+                    <input  id="fnm" type="text" placeholder="First name">
+                    <input id="lnm" type="text" placeholder="Last name">
+             </div>
+                <div class="dob">
+                    Date Of Birth <br>
+                    <input type="date" name="date" id="dob">
+                </div>
+                <div class="gender">
+                    gender <br>
+                    <select name="gender" id="gender">
+                        <option value="none">-------</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="mobi-no">
+                    Mobile Number <br>
+                    <input id="mobi-no" type="number" maxlength="10" placeholder="XXX XXX XXXX">
+                </div>
+                <div class="email">
+                    Enter E-mail <br>
+                    <input id="email" type="email">
+                </div>
+                <div class="password">  
+                    Enter password <br>
+                    <input id="password" type="password" placeholder="password">
+                    <ul id="instructions">
+                        <li id="list">min(8 char) - max(12 char)</li>
+                        <li id="list">one upper-case</li>
+                        <li id="list">one lower-case</li>
+                        <li id="list">one digit</li>
+                        <li id="list">one special char</li>
+                    </ul>
+                </div>
+                <div class="re-enter-password">
+                    Re-Enter password <br>
+                    <input id="re-enter-password" type="password" placeholder="re-enter-password">
+                </div>
+                <!-- <div class="submit">
+                    <a href="#">Submit</a>
+                </div> -->
+                <div class="checkbox">
+                    <input type="checkbox">
+                    I would prefer not to receive marketing messages. <br>
+                    <input type="checkbox">
+                    Share my registration data with content providers for marketing purposes.
+                </div>
+             <div class="submit">
+                <a href="signup-sucess.html">Submit</a>
+            </div>
+             </div>
+                <!-- <div class="checkbox">
+                    <input type="checkbox">
+                    I would prefer not to receive marketing messages from Spotify <br>
+                    <input type="checkbox">
+                    Share my registration data with Spotify's content providers for marketing purposes.
+                </div>
+             <div class="submit">
+                <a href="#">Submit</a>
+            </div> -->
+        </div>
+    </div>
+</body>
+</html>
